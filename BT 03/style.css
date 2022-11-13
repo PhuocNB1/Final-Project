@@ -1,0 +1,121 @@
+.header {
+    margin: 100px;
+}
+
+.title {}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search {
+    position: relative;
+}
+
+.input {
+    padding: 10px;
+    padding-left: 35px;
+    width: 300px;
+    border-color: #BFC8E6;
+    border-radius: 4px;
+    border-style: solid;
+}
+
+.input::placeholder {
+    color: #151b32;
+}
+
+.icon {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+
+.glyphicon glyphicon-search {
+    height: 32px;
+    width: 32px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    list-style: none;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 16px 10px;
+
+}
+
+.nav-item:hover {
+    color: white;
+    background-color: #849FFF;
+    border-radius: 10px;
+    text-shadow: 1px 5px 2px #516FD4;
+}
+
+.main {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.users {
+    display: flex;
+    justify-content: space-between;
+}
+
+.users-item {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    width: 327px;
+    height: 208px;
+    margin-bottom: 50px;
+    column-gap: 16px;
+    cursor: pointer;
+}
+
+.users-item:hover {
+    border-radius: 16px;
+    box-shadow: 1px 2px 10px #BFC8E6;
+    border-color: #BFC8E6;
+}
+
+.txt {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.sub-txt {
+    font-size: 14px;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.avatar-user {
+    height: 97px;
+    width: 97px;
+}
+
+.info-user {}
+
+.info-txt {}
+
+.info-hashtag {}
+
+.btn-tag {
+    border-color: #BFC8E5;
+    color: #516FD4;
+    border-radius: 16px;
+    border-style: solid;
+    margin: 3px 0;
+    background-color: white;
+}
